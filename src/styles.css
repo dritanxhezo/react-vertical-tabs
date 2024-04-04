@@ -17,29 +17,43 @@
 }
 
 .react-tabs__tab-list {
-  display: flex;
-  flex-direction: column;
-  width: 170px;
-  margin: 0;
-  padding: 0;
-  color: white;
-  background: #3c3e43;
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: #3c3e43;
+    font-family: serif|sans-serif|cursive|fantasy|monospace;
+    font-size: 12px;
 }
 
 .react-tabs__tab {
-  height: 70px;
-  list-style: none;
-  padding: 12px 6px;
-  cursor: pointer;
-  color: #bbb;
+    /*height: 70px;*/
+    list-style: none;
+    /*padding: 12px 6px;*/
+    cursor: pointer;
+    color: #bbb;
+    user-select: none;
+    outline: none;
+    /*writing-mode: vertical-rl;*/ /* Set vertical writing mode */
+    /*text-orientation: upright;*/ /* Set upright orientation */
+    /*transform: rotate(45deg);*/ /* Rotate 90 degrees clockwise */
+    /*transform-origin: left top 0;*/ /* Set rotation origin */
 }
 
+/*    .react-tabs__tab:focus-visible {
+        outline: none;
+    }
+*/
 .react-tabs__tab--selected {
   background: #1c1d1f;
   border-color: #1c1d1f;
   border-left: 4px solid #6eb800;
   color: white;
+  
 }
+
 
 .react-tabs__tab-panel {
   display: none;
