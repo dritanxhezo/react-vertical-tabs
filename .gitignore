@@ -1,1 +1,8 @@
 node_modules
+/.vs/react-vertical-tabs/config
+/.vs/react-vertical-tabs/FileContentIndex
+/.vs/react-vertical-tabs/v17/.wsuo
+/.vs/react-vertical-tabs/v17/DocumentLayout.json
+/.vs
+/.vshistory/package.json
+/src/.vshistory
